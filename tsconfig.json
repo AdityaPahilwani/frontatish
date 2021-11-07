@@ -2,7 +2,14 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "frontatish": ["./src/index"]
+      "*": ["./src/*"],
+      "frontatish": ["./src/index"],
+      "animated":["./src/animated"],
+      "common": ["./src/common"],
+      "components": ["./src/components"],
+      "styles": ["./src/styles"],
+      "themes": ["./src/themes"],
+      "ui": ["./src/ui"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
